@@ -1,0 +1,20 @@
+{
+  "name": "billionaire-diary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://muhammad-rk-isa.github.io/billionaire-diary",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
